@@ -299,15 +299,15 @@ function formatContext(n) {
 }
 
 function formatCost(cost) {
-  if (cost === 0) return 'Free';
-  if (cost === null || cost === undefined) return '-';
+  if (cost === 0) return '—';
+  if (cost === null || cost === undefined) return '—';
   return `$${cost.toFixed(2)}`;
 }
 
 function generateReadmeTable(models) {
   const lines = [
-    '| Model | Context | Vision | Reasoning | Input $/M | Output $/M |',
-    '|-------|---------|--------|-----------|-----------|------------|',
+    '| Model | Context | Vision | Reasoning | Input $/M | Cache Read $/M | Output $/M |',
+    '|-------|---------|--------|-----------|-----------|-----------------|------------|',
   ];
 
   for (const model of models) {
@@ -315,9 +315,10 @@ function generateReadmeTable(models) {
     const vision = model.input.includes('image') ? '✅' : '❌';
     const reasoning = model.reasoning ? '✅' : '❌';
     const inputCost = formatCost(model.cost.input);
+    const cacheReadCost = formatCost(model.cost.cacheRead);
     const outputCost = formatCost(model.cost.output);
 
-    lines.push(`| ${model.name} | ${context} | ${vision} | ${reasoning} | ${inputCost} | ${outputCost} |`);
+    lines.push(`| ${model.name} | ${context} | ${vision} | ${reasoning} | ${inputCost} | ${cacheReadCost} | ${outputCost} |`);
   }
 
   return lines.join('\n');
