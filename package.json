@@ -38,7 +38,9 @@
     "deprecated-models.json",
     "custom-models.json",
     "patch.json",
-    "scripts/update-models.js"
+    "scripts/update-models.js",
+    "README.md",
+    "LICENSE"
   ],
   "devDependencies": {
     "@types/node": "^22.20.0",
