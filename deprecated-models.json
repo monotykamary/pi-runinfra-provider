@@ -1,0 +1,24 @@
+{
+  "nemotron-3-5-lightning-30b": {
+    "id": "nemotron-3-5-lightning-30b",
+    "name": "Nemotron 3.5 Lightning 30B",
+    "reasoning": true,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.05,
+      "output": 0.15,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 262144,
+    "maxTokens": 32768,
+    "compat": {
+      "supportsDeveloperRole": false,
+      "supportsStore": false,
+      "maxTokensField": "max_tokens"
+    },
+    "deprecatedAt": "2026-08-18T16:43:21.091Z"
+  }
+}

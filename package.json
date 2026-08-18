@@ -1,0 +1,52 @@
+{
+  "name": "pi-runinfra-provider",
+  "version": "1.0.0",
+  "packageManager": "pnpm@11.20.0",
+  "description": "RunInfra provider extension for pi - Access DeepSeek V4, Nemotron 3.5 Lightning, and Qwen3.8 models through the RunInfra gateway",
+  "author": "monotykamary",
+  "homepage": "https://github.com/monotykamary/pi-runinfra-provider#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monotykamary/pi-runinfra-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/monotykamary/pi-runinfra-provider/issues"
+  },
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "clean": "echo 'nothing to clean'",
+    "build": "echo 'nothing to build'",
+    "check": "tsc --noEmit",
+    "update-models": "node scripts/update-models.js"
+  },
+  "keywords": [
+    "pi",
+    "extension",
+    "provider",
+    "runinfra",
+    "ai",
+    "llm",
+    "deepseek",
+    "nemotron",
+    "qwen"
+  ],
+  "license": "MIT",
+  "files": [
+    "index.ts",
+    "models.json",
+    "deprecated-models.json",
+    "custom-models.json",
+    "patch.json",
+    "scripts/update-models.js"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.20.0",
+    "typescript": "6.0.3"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
