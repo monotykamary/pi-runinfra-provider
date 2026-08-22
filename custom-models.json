@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "ornith-1-5-35b",
+    "name": "Ornith 1.5 35B",
+    "reasoning": true,
+    "input": [
+      "text",
+      "image"
+    ],
+    "cost": {
+      "input": 0.1,
+      "output": 0.4,
+      "cacheRead": 0.01,
+      "cacheWrite": 0
+    },
+    "contextWindow": 262144,
+    "maxTokens": 262144,
+    "thinkingLevelMap": {
+      "off": "none",
+      "minimal": "low",
+      "low": "low",
+      "medium": "medium",
+      "high": "xhigh",
+      "xhigh": "xhigh",
+      "max": "xhigh"
+    },
+    "compat": {
+      "supportsDeveloperRole": false,
+      "supportsStore": false,
+      "maxTokensField": "max_tokens",
+      "thinkingFormat": "openai",
+      "supportsReasoningEffort": true,
+      "requiresReasoningContentOnAssistantMessages": true
+    }
+  }
+]
