@@ -430,6 +430,20 @@ function withDeprecatedForReadme(models) {
 
 async function main() {
   try {
+    // Regenerate the derived README table from local source data without an API
+    // key. This is useful for offline workflows while curating custom models.
+    if (process.argv.includes('--readme-only')) {
+      const baseModels = loadJson(MODELS_JSON_PATH);
+      const patchData = loadJson(PATCH_JSON_PATH);
+      const customModels = loadJson(CUSTOM_MODELS_JSON_PATH);
+      const readmeBase = withDeprecatedForReadme(Array.isArray(baseModels) ? baseModels : []);
+      const readmeModels = buildModels(readmeBase, Array.isArray(customModels) ? customModels : [], patchData);
+      readmeModels.sort((a, b) => a.name.localeCompare(b.name));
+      updateReadme(readmeModels);
+      console.log('✓ Regenerated README.md from local model data');
+      return;
+    }
+
     const apiModels = await fetchModels();
 
     // Load existing models.json — source of truth for curated specs
