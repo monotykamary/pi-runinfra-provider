@@ -15,7 +15,7 @@ _A [pi](https://github.com/earendil-works/pi-coding-agent) provider extension fo
 
 ## Features
 
-- **6 AI Models** including DeepSeek V4 Flash / Pro, Nemotron 3.5 Lightning 30B, Ornith 1.5 35B, and Qwen3.8 2.4T A95B / 27B
+- **10 AI Models** covering the full RunInfra lineup: DeepSeek V4 Flash, DeepSeek V4 Pro, Nemotron 3.5 Lightning 30B, Ornith 1.5 35B, Qwen3.8 2.4T A95B, Qwen3.8 27B, Parakeet TDT 0.6B v3, and the Qwen3 embedding/reranker models
 - **OpenAI-Compatible API** — Just change the base URL and API key
 - **Cost Tracking** — Per-model pricing for budget management
 - **Reasoning Models** — Extended thinking via `reasoning_content` field
@@ -73,6 +73,10 @@ pi
 | DeepSeek V4 Pro | 1.0M | ❌ | ✅ | $0.60 | $0.03 | $1.90 |
 | Nemotron 3.5 Lightning 30B | 262K | ❌ | ✅ | $0.05 | — | $0.15 |
 | Ornith 1.5 35B | 262K | ✅ | ✅ | $0.10 | $0.01 | $0.40 |
+| Parakeet TDT 0.6B v3 | 131K | ❌ | ❌ | $10.00 | — | — |
+| Qwen3 Embedding 0.6B | 33K | ❌ | ❌ | $0.01 | — | — |
+| Qwen3 Embedding 8B | 33K | ❌ | ❌ | $0.05 | — | — |
+| Qwen3 Reranker 8B | 16K | ❌ | ❌ | $0.05 | — | — |
 | Qwen3.8 2.4T A95B | 262K | ❌ | ✅ | $2.00 | $0.20 | $6.00 |
 | Qwen3.8 27B | 262K | ❌ | ✅ | $0.10 | $0.01 | $0.40 |
 
