@@ -170,6 +170,13 @@ This will:
 3. Apply overrides from `patch.json`
 4. Update `models.json` and the README model table
 
+To regenerate just the README model table from local data — no API key needed,
+useful for offline curation:
+
+```bash
+node scripts/update-models.js --readme-only
+```
+
 ## License
 
 MIT
