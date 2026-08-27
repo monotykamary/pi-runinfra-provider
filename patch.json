@@ -4,11 +4,11 @@
     "reasoning": true,
     "thinkingLevelMap": {
       "off": "none",
-      "minimal": "minimal",
+      "minimal": "low",
       "low": "low",
-      "medium": "medium",
+      "medium": "high",
       "high": "high",
-      "xhigh": "xhigh",
+      "xhigh": "high",
       "max": "max"
     },
     "compat": {
@@ -23,11 +23,11 @@
     "reasoning": true,
     "thinkingLevelMap": {
       "off": "none",
-      "minimal": "minimal",
+      "minimal": "low",
       "low": "low",
-      "medium": "medium",
+      "medium": "high",
       "high": "high",
-      "xhigh": "xhigh",
+      "xhigh": "high",
       "max": "max"
     },
     "compat": {
@@ -44,9 +44,18 @@
       "text",
       "image"
     ],
+    "thinkingLevelMap": {
+      "off": null,
+      "minimal": "low",
+      "low": "low",
+      "medium": "high",
+      "high": "high",
+      "xhigh": "max",
+      "max": "max"
+    },
     "compat": {
       "thinkingFormat": "zai",
-      "supportsReasoningEffort": false,
+      "supportsReasoningEffort": true,
       "maxTokensField": "max_tokens"
     }
   },
@@ -58,9 +67,9 @@
       "minimal": "low",
       "low": "low",
       "medium": "medium",
-      "high": "xhigh",
+      "high": "high",
       "xhigh": "xhigh",
-      "max": "xhigh"
+      "max": "max"
     },
     "compat": {
       "thinkingFormat": "openai",
@@ -77,9 +86,9 @@
       "minimal": "low",
       "low": "low",
       "medium": "medium",
-      "high": "xhigh",
+      "high": "high",
       "xhigh": "xhigh",
-      "max": "xhigh"
+      "max": "max"
     },
     "compat": {
       "thinkingFormat": "openai",
@@ -92,13 +101,13 @@
     "name": "Qwen3.8 2.4T A95B",
     "reasoning": true,
     "thinkingLevelMap": {
-      "off": "none",
+      "off": null,
       "minimal": "low",
       "low": "low",
       "medium": "medium",
-      "high": "xhigh",
+      "high": "high",
       "xhigh": "xhigh",
-      "max": "xhigh"
+      "max": null
     },
     "compat": {
       "thinkingFormat": "openai",
@@ -115,9 +124,9 @@
       "minimal": "low",
       "low": "low",
       "medium": "medium",
-      "high": "xhigh",
+      "high": "high",
       "xhigh": "xhigh",
-      "max": "xhigh"
+      "max": null
     },
     "compat": {
       "thinkingFormat": "openai",
