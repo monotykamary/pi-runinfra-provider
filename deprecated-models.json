@@ -1,24 +1,90 @@
 {
-  "nemotron-3-5-lightning-30b": {
-    "id": "nemotron-3-5-lightning-30b",
-    "name": "Nemotron 3.5 Lightning 30B",
-    "reasoning": true,
+  "parakeet-tdt-0-6b-v3": {
+    "id": "parakeet-tdt-0-6b-v3",
+    "name": "Parakeet TDT 0.6B v3",
+    "reasoning": false,
     "input": [
       "text"
     ],
     "cost": {
-      "input": 0.05,
-      "output": 0.15,
+      "input": 10,
+      "output": 0,
       "cacheRead": 0,
       "cacheWrite": 0
     },
-    "contextWindow": 262144,
+    "contextWindow": 131072,
     "maxTokens": 32768,
     "compat": {
       "supportsDeveloperRole": false,
       "supportsStore": false,
       "maxTokensField": "max_tokens"
     },
-    "deprecatedAt": "2026-08-18T16:43:21.091Z"
+    "deprecatedAt": "2026-08-27T07:36:24.190Z"
+  },
+  "qwen3-embedding-0-6b": {
+    "id": "qwen3-embedding-0-6b",
+    "name": "Qwen3 Embedding 0.6B",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.01,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 32768,
+    "maxTokens": 32768,
+    "compat": {
+      "supportsDeveloperRole": false,
+      "supportsStore": false,
+      "maxTokensField": "max_tokens"
+    },
+    "deprecatedAt": "2026-08-27T07:36:24.190Z"
+  },
+  "qwen3-embedding-8b": {
+    "id": "qwen3-embedding-8b",
+    "name": "Qwen3 Embedding 8B",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.05,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 32768,
+    "maxTokens": 32768,
+    "compat": {
+      "supportsDeveloperRole": false,
+      "supportsStore": false,
+      "maxTokensField": "max_tokens"
+    },
+    "deprecatedAt": "2026-08-27T07:36:24.190Z"
+  },
+  "qwen3-reranker-8b": {
+    "id": "qwen3-reranker-8b",
+    "name": "Qwen3 Reranker 8B",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.05,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "contextWindow": 16384,
+    "maxTokens": 32768,
+    "compat": {
+      "supportsDeveloperRole": false,
+      "supportsStore": false,
+      "maxTokensField": "max_tokens"
+    },
+    "deprecatedAt": "2026-08-27T07:36:24.190Z"
   }
 }

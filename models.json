@@ -13,7 +13,7 @@
       "cacheWrite": 0
     },
     "contextWindow": 1048576,
-    "maxTokens": 32768,
+    "maxTokens": 1048576,
     "compat": {
       "supportsDeveloperRole": false,
       "supportsStore": false,
@@ -34,7 +34,28 @@
       "cacheWrite": 0
     },
     "contextWindow": 1048576,
-    "maxTokens": 32768,
+    "maxTokens": 1048576,
+    "compat": {
+      "supportsDeveloperRole": false,
+      "supportsStore": false,
+      "maxTokensField": "max_tokens"
+    }
+  },
+  {
+    "id": "glm-5-3-flash",
+    "name": "Glm 5 3 Flash",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.1,
+      "output": 0.4,
+      "cacheRead": 0.01,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 1048576,
     "compat": {
       "supportsDeveloperRole": false,
       "supportsStore": false,
@@ -51,7 +72,7 @@
     "cost": {
       "input": 0.05,
       "output": 0.15,
-      "cacheRead": 0,
+      "cacheRead": 0.01,
       "cacheWrite": 0
     },
     "contextWindow": 262144,
@@ -98,7 +119,7 @@
       "cacheWrite": 0
     },
     "contextWindow": 262144,
-    "maxTokens": 32768,
+    "maxTokens": 262144,
     "compat": {
       "supportsDeveloperRole": false,
       "supportsStore": false,
@@ -119,91 +140,7 @@
       "cacheWrite": 0
     },
     "contextWindow": 262144,
-    "maxTokens": 32768,
-    "compat": {
-      "supportsDeveloperRole": false,
-      "supportsStore": false,
-      "maxTokensField": "max_tokens"
-    }
-  },
-  {
-    "id": "parakeet-tdt-0-6b-v3",
-    "name": "Parakeet TDT 0.6B v3",
-    "reasoning": false,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 10,
-      "output": 0,
-      "cacheRead": 0,
-      "cacheWrite": 0
-    },
-    "contextWindow": 131072,
-    "maxTokens": 32768,
-    "compat": {
-      "supportsDeveloperRole": false,
-      "supportsStore": false,
-      "maxTokensField": "max_tokens"
-    }
-  },
-  {
-    "id": "qwen3-embedding-0-6b",
-    "name": "Qwen3 Embedding 0.6B",
-    "reasoning": false,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0.01,
-      "output": 0,
-      "cacheRead": 0,
-      "cacheWrite": 0
-    },
-    "contextWindow": 32768,
-    "maxTokens": 32768,
-    "compat": {
-      "supportsDeveloperRole": false,
-      "supportsStore": false,
-      "maxTokensField": "max_tokens"
-    }
-  },
-  {
-    "id": "qwen3-embedding-8b",
-    "name": "Qwen3 Embedding 8B",
-    "reasoning": false,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0.05,
-      "output": 0,
-      "cacheRead": 0,
-      "cacheWrite": 0
-    },
-    "contextWindow": 32768,
-    "maxTokens": 32768,
-    "compat": {
-      "supportsDeveloperRole": false,
-      "supportsStore": false,
-      "maxTokensField": "max_tokens"
-    }
-  },
-  {
-    "id": "qwen3-reranker-8b",
-    "name": "Qwen3 Reranker 8B",
-    "reasoning": false,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0.05,
-      "output": 0,
-      "cacheRead": 0,
-      "cacheWrite": 0
-    },
-    "contextWindow": 16384,
-    "maxTokens": 32768,
+    "maxTokens": 262144,
     "compat": {
       "supportsDeveloperRole": false,
       "supportsStore": false,
