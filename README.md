@@ -75,7 +75,7 @@ pi
 | Nemotron 3.5 Lightning 30B | 262K | ❌ | ✅ | $0.05 | $0.01 | $0.15 |
 | Ornith 1.5 35B | 262K | ✅ | ✅ | $0.10 | $0.01 | $0.40 |
 | Parakeet TDT 0.6B v3 | 131K | ❌ | ❌ | $10.00 | — | — |
-| Qwen3 8 Flash Next | 1.0M | ❌ | ❌ | $0.12 | $0.01 | $0.40 |
+| Qwen3 8 Flash Next | 1.0M | ❌ | ❌ | $0.12 | — | $0.40 |
 | Qwen3 Embedding 0.6B | 33K | ❌ | ❌ | $0.01 | — | — |
 | Qwen3 Embedding 8B | 33K | ❌ | ❌ | $0.05 | — | — |
 | Qwen3 Reranker 8B | 16K | ❌ | ❌ | $0.05 | — | — |
