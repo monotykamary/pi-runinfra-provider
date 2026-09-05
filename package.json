@@ -1,6 +1,6 @@
 {
   "name": "pi-runinfra-provider",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "RunInfra provider extension for pi - Access DeepSeek V4, Nemotron 3.5 Lightning, and Qwen3.8 models through the RunInfra gateway",
   "author": "monotykamary",
   "homepage": "https://github.com/monotykamary/pi-runinfra-provider#readme",
@@ -43,7 +43,8 @@
   ],
   "devDependencies": {
     "@types/node": "^22.20.0",
-    "typescript": "6.0.3"
+    "typescript": "6.0.3",
+    "@earendil-works/pi-coding-agent": "0.85.1"
   },
   "pi": {
     "extensions": [
