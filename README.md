@@ -75,7 +75,6 @@ pi
 | Nemotron 3.5 Lightning 30B | 262K | ❌ | ✅ | $0.05 | $0.01 | $0.15 |
 | Ornith 1.5 35B | 262K | ✅ | ✅ | $0.10 | $0.01 | $0.40 |
 | Qwen3 8 Flash Next | 1.0M | ❌ | ❌ | $0.12 | — | $0.40 |
-| Qwen3.8 2.4T A95B | 1.0M | ❌ | ✅ | $2.00 | $0.20 | $6.00 |
 | Qwen3.8 27B | 262K | ❌ | ✅ | $0.10 | $0.01 | $0.40 |
 
 *Costs are per million tokens. Prices subject to change — check RunInfra for current pricing.*
