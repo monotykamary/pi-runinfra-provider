@@ -43,10 +43,13 @@
     "README.md",
     "LICENSE"
   ],
+  "overrides": {
+    "brace-expansion": "5.0.12"
+  },
   "devDependencies": {
     "@types/node": "^22.20.0",
     "typescript": "6.0.3",
-    "@earendil-works/pi-coding-agent": "1.0.0"
+    "@earendil-works/pi-coding-agent": "1.1.0"
   },
   "pi": {
     "extensions": [
