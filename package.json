@@ -16,7 +16,8 @@
   "scripts": {
     "clean": "echo 'nothing to clean'",
     "build": "echo 'nothing to build'",
-    "check": "tsc --noEmit && node scripts/test-pi-compat.mjs",
+    "check": "tsc --noEmit && vitest run && node scripts/test-pi-compat.mjs",
+    "test": "vitest run",
     "update-models": "node scripts/update-models.js",
     "test:pi": "node scripts/test-pi-compat.mjs",
     "typecheck": "tsc --noEmit"
@@ -35,6 +36,7 @@
   "license": "MIT",
   "files": [
     "index.ts",
+    "sync-policy.ts",
     "models.json",
     "deprecated-models.json",
     "custom-models.json",
@@ -49,7 +51,8 @@
   "devDependencies": {
     "@types/node": "^22.20.0",
     "typescript": "6.0.3",
-    "@earendil-works/pi-coding-agent": "1.1.0"
+    "@earendil-works/pi-coding-agent": "1.1.0",
+    "vitest": "4.1.7"
   },
   "pi": {
     "extensions": [
