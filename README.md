@@ -70,7 +70,7 @@ pi
 
 | Model | Context | Vision | Reasoning | Input $/M | Cache Read $/M | Output $/M |
 |-------|---------|--------|-----------|-----------|-----------------|------------|
-| Deepseek V4 1 Flash | 1.0M | ❌ | ❌ | $0.10 | $0.02 | $0.43 |
+| Deepseek V4 1 Flash | 1.0M | ❌ | ❌ | $0.10 | — | $0.43 |
 | DeepSeek V4 Flash | 1.0M | ❌ | ✅ | $0.13 | — | $0.27 |
 | DeepSeek V4 Pro | 1.0M | ❌ | ✅ | $0.60 | — | $1.90 |
 | GLM 5.3 Flash | 1.0M | ✅ | ✅ | $0.08 | $0.02 | $0.33 |
