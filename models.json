@@ -21,6 +21,27 @@
     }
   },
   {
+    "id": "deepseek-v4-1-flash-1017",
+    "name": "Deepseek V4 1 Flash 1017",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.15,
+      "output": 0.6,
+      "cacheRead": 0.01,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 1048576,
+    "compat": {
+      "supportsDeveloperRole": false,
+      "supportsStore": false,
+      "maxTokensField": "max_tokens"
+    }
+  },
+  {
     "id": "glm-5-3-flash",
     "name": "Glm 5 3 Flash",
     "reasoning": false,

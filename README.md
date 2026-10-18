@@ -71,6 +71,7 @@ pi
 | Model | Context | Vision | Reasoning | Input $/M | Cache Read $/M | Output $/M |
 |-------|---------|--------|-----------|-----------|-----------------|------------|
 | Deepseek V4 1 Flash | 1.0M | ❌ | ❌ | $0.14 | $0.03 | $0.58 |
+| Deepseek V4 1 Flash 1017 | 1.0M | ❌ | ❌ | $0.15 | $0.01 | $0.60 |
 | GLM 5.3 Flash | 1.0M | ✅ | ✅ | $0.11 | $0.03 | $0.45 |
 | Nemotron 3.5 Lightning 30B | 262K | ❌ | ✅ | $0.05 | $0.01 | $0.15 |
 | Ornith 1.5 35B | 262K | ✅ | ✅ | $0.10 | $0.01 | $0.40 |
