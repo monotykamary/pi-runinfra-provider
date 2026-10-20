@@ -42,6 +42,27 @@
     }
   },
   {
+    "id": "glm-5-3",
+    "name": "Glm 5 3",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 1.3,
+      "output": 4.2,
+      "cacheRead": 0.13,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 1048576,
+    "compat": {
+      "supportsDeveloperRole": false,
+      "supportsStore": false,
+      "maxTokensField": "max_tokens"
+    }
+  },
+  {
     "id": "glm-5-3-flash",
     "name": "Glm 5 3 Flash",
     "reasoning": false,
