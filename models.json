@@ -105,6 +105,27 @@
     }
   },
   {
+    "id": "ornith-1-5-122b",
+    "name": "Ornith 1 5 122b",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.2,
+      "output": 0.8,
+      "cacheRead": 0.02,
+      "cacheWrite": 0
+    },
+    "contextWindow": 262144,
+    "maxTokens": 262144,
+    "compat": {
+      "supportsDeveloperRole": false,
+      "supportsStore": false,
+      "maxTokensField": "max_tokens"
+    }
+  },
+  {
     "id": "ornith-1-5-35b",
     "name": "Ornith 1.5 35B",
     "reasoning": true,
