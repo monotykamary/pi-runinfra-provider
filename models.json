@@ -70,9 +70,9 @@
       "text"
     ],
     "cost": {
-      "input": 0.11,
-      "output": 0.45,
-      "cacheRead": 0.03,
+      "input": 0.05,
+      "output": 0.22,
+      "cacheRead": 0.01,
       "cacheWrite": 0
     },
     "contextWindow": 1048576,
