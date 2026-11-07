@@ -93,7 +93,7 @@
     "cost": {
       "input": 0.05,
       "output": 0.15,
-      "cacheRead": 0,
+      "cacheRead": 0.01,
       "cacheWrite": 0
     },
     "contextWindow": 262144,
@@ -115,7 +115,7 @@
     "cost": {
       "input": 0.1,
       "output": 0.4,
-      "cacheRead": 0,
+      "cacheRead": 0.01,
       "cacheWrite": 0
     },
     "contextWindow": 262144,
@@ -141,6 +141,27 @@
     },
     "contextWindow": 262144,
     "maxTokens": 262144,
+    "compat": {
+      "supportsDeveloperRole": false,
+      "supportsStore": false,
+      "maxTokensField": "max_tokens"
+    }
+  },
+  {
+    "id": "step-5-preview",
+    "name": "Step 5 Preview",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 0.9,
+      "output": 2.43,
+      "cacheRead": 0.09,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 1048576,
     "compat": {
       "supportsDeveloperRole": false,
       "supportsStore": false,

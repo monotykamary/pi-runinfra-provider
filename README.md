@@ -74,10 +74,11 @@ pi
 | Deepseek V4 1 Flash 1017 | 1.0M | ❌ | ❌ | $0.15 | $0.01 | $0.60 |
 | Glm 5 3 | 1.0M | ❌ | ❌ | $1.30 | $0.13 | $4.20 |
 | GLM 5.3 Flash | 1.0M | ✅ | ✅ | $0.11 | $0.03 | $0.45 |
-| Nemotron 3.5 Lightning 30B | 262K | ❌ | ✅ | $0.05 | — | $0.15 |
+| Nemotron 3.5 Lightning 30B | 262K | ❌ | ✅ | $0.05 | $0.01 | $0.15 |
 | Ornith 1 5 122b | 262K | ❌ | ❌ | $0.26 | $0.07 | $2.08 |
-| Ornith 1.5 35B | 262K | ✅ | ✅ | $0.10 | — | $0.40 |
+| Ornith 1.5 35B | 262K | ✅ | ✅ | $0.10 | $0.01 | $0.40 |
 | Qwen3.8 27B | 262K | ❌ | ✅ | $0.10 | $0.01 | $0.40 |
+| Step 5 Preview | 1.0M | ❌ | ❌ | $0.90 | $0.09 | $2.43 |
 
 *Costs are per million tokens. Prices subject to change — check RunInfra for current pricing.*
 
