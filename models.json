@@ -190,27 +190,6 @@
     }
   },
   {
-    "id": "step-5-preview",
-    "name": "Step 5 Preview",
-    "reasoning": false,
-    "input": [
-      "text"
-    ],
-    "cost": {
-      "input": 0.9,
-      "output": 2.43,
-      "cacheRead": 0,
-      "cacheWrite": 0
-    },
-    "contextWindow": 1048576,
-    "maxTokens": 1048576,
-    "compat": {
-      "supportsDeveloperRole": false,
-      "supportsStore": false,
-      "maxTokensField": "max_tokens"
-    }
-  },
-  {
     "id": "system-zero",
     "name": "System Zero",
     "reasoning": false,
