@@ -105,6 +105,27 @@
     }
   },
   {
+    "id": "kimi-k3-1-pro",
+    "name": "Kimi K3 1 Pro",
+    "reasoning": false,
+    "input": [
+      "text"
+    ],
+    "cost": {
+      "input": 1.6,
+      "output": 8,
+      "cacheRead": 0.16,
+      "cacheWrite": 0
+    },
+    "contextWindow": 1048576,
+    "maxTokens": 32768,
+    "compat": {
+      "supportsDeveloperRole": false,
+      "supportsStore": false,
+      "maxTokensField": "max_tokens"
+    }
+  },
+  {
     "id": "nemotron-3-5-lightning-30b",
     "name": "Nemotron 3.5 Lightning 30B",
     "reasoning": true,
